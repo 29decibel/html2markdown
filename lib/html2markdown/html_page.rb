@@ -15,4 +15,12 @@ class HTMLPage
     @content_extrator = content_extrator
   end
 
+  def markdown
+    @markdown ||= markdown!
+  end
+
+  def markdown!
+    to_markdown(contents)
+  end
+
 end

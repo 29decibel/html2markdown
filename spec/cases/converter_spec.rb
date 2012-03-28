@@ -74,4 +74,11 @@ NEXT！<br>
     markdown.length.should > 0
     puts markdown
   end
+
+  it "should have markdown method" do
+    p = HTMLPage.new :contents => '<strong>haha</strong>'
+    p.markdown.should == '**haha**'
+    p.contents = '<strong>hehe</strong>'
+    p.markdown!.should == '**hehe**'
+  end
 end
