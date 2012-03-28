@@ -23,7 +23,7 @@ p.markdown!.should be_include('strong text')
 gem install html2markdown
 ```
 
-* rails env
+* Rails Gemfile
 
 ```ruby
 gem 'html2markdown'
