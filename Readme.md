@@ -15,3 +15,14 @@ p.strong do |node,contents|
 end
 p.markdown!.should be_include('strong text')
 ```
+
+### Installation
+* gem
+```ruby
+gem install html2markdown
+```
+
+* rails env
+```ruby
+gem 'html2markdown'
+```
