@@ -81,4 +81,13 @@ NEXT！<br>
     p.contents = '<strong>hehe</strong>'
     p.markdown!.should == '**hehe**'
   end
+
+  it "can have custom node parse block" do
+    p = HTMLPage.new :contents => '<strong>haha</strong>'
+    p.strong do |node,contents|
+      "strong text : **#{contents}**"
+    end
+    p.markdown!.should be_include('strong text')
+  end
+
 end
