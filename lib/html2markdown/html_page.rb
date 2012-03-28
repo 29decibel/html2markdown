@@ -20,7 +20,7 @@ class HTMLPage
   end
 
   def markdown!
-    to_markdown(contents)
+    @markdown = to_markdown(contents)
   end
 
 end
