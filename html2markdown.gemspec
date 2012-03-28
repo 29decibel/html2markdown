@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["mike.d.1984@gmail.com"]
   gem.description   = %q{simple and flexible html to markdown converter}
   gem.summary       = %q{simple and flexible html to markdown converter}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/29decibel/html2markdown"
 
 	gem.add_dependency 'nokogiri'
   
