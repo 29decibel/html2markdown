@@ -1,0 +1,545 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.kickstarter.com/projects/1397300529/railsapp
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.0.11
+      Date:
+      - Wed, 28 Mar 2012 23:06:46 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      Etag:
+      - ! '"75da5432903c1b163d600fcf81fa65b1"'
+      Set-Cookie:
+      - _ksr_session=BAh7ByIPc2Vzc2lvbl9pZCIlNjhlZGU3NGE3NDQxMWNlMmY4ZDc2NTgyYjk4M2Q1N2QiEF9jc3JmX3Rva2VuIjFLSnV1a1c0RWhLbG12cmQwaVpKVjl1b1VLNHdoSW4rSmJ1Y2J3RmpIMUFjPQ%3D%3D--31eac2c89ed04e369b81ef4dd247fbae2098517e;
+        path=/
+      - abid=BAgiFTk5NDA2OWM4OTY1Y2NhZjI%3D--512e3e9f12894311c8dc10fcb05d3e14f539265c;
+        path=/; expires=Sun, 28-Mar-2032 23:06:46 GMT
+      - last_page=http%3A%2F%2Fwww.kickstarter.com%2Fprojects%2F1397300529%2Frailsapp;
+        path=/; expires=Wed, 28-Mar-2012 23:36:46 GMT
+      - request_time=Wed%2C+28+Mar+2012+23%3A06%3A46+-0000; path=/
+      Content-Length:
+      - '42056'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Runtime:
+      - '0.139642'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+    body:
+      encoding: ASCII-8BIT
+      string: ! "<!DOCTYPE html>\n<html class=\"projects_show no-js fontface \" lang=\"en\"
+        xml:lang=\"en\" xmlns:fb=\"http://www.facebook.com/2008/fbml\" xmlns=\"http://www.w3.org/1999/xhtml\">\n<head><script
+        type=\"text/javascript\">var NREUMQ=NREUMQ||[];NREUMQ.push([\"mark\",\"firstbyte\",new
+        Date().getTime()]);</script><title>rails.app by Yehuda Katz &mdash; Kickstarter</title><!--[if
+        lt IE 9]>\n  <script src=\"http://html5shim.googlecode.com/svn/trunk/html5.js\"
+        type=\"text/javascript\"></script>\n<![endif]-->\n\n\n<meta content=\"text/html;
+        charset=utf-8\" http-equiv=\"Content-Type\">\n<meta content=\"telephone=no\"
+        name=\"format-detection\">\n<link href=\"/fonts/fonts.css\" media=\"screen\"
+        rel=\"stylesheet\" type=\"text/css\">\n<link href=\"http://d297h9he240fqh.cloudfront.net/cache-e1f3b9f54/assets/project_page.css\"
+        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<!--[if lte IE 7]>\n
+        \ <link href=\"http://d297h9he240fqh.cloudfront.net/cache-e1f3b9f54/stylesheets/compass/library/ie.css\"
+        media=\"screen\" rel=\"stylesheet\" type=\"text/css\" />\n<![endif]-->\n\n<link
+        href=\"http://d297h9he240fqh.cloudfront.net/cache-e1f3b9f54/favicon.png\"
+        rel=\"icon\" type=\"image/png\">\n<link href=\"http://d297h9he240fqh.cloudfront.net/cache-e1f3b9f54/apple-touch-icon-precomposed.png\"
+        rel=\"apple-touch-icon-precomposed\" type=\"image/png\">\n<link href=\"http://d297h9he240fqh.cloudfront.net/cache-e1f3b9f54/apple-touch-icon-ipad-precomposed.png\"
+        rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\" type=\"image/png\">\n<link
+        href=\"http://d297h9he240fqh.cloudfront.net/cache-e1f3b9f54/apple-touch-icon-iphone4-precomposed.png\"
+        rel=\"apple-touch-icon-precomposed\" sizes=\"114x114\" type=\"image/png\">\n<link
+        href=\"http://www.kickstarter.com/services/oembed?url=http%3A%2F%2Fwww.kickstarter.com%2Fprojects%2F1397300529%2Frailsapp\"
+        rel=\"alternate\" title=\"rails.app Script Tag oEmbed\" type=\"application/json+oembed\">\n<link
+        rel=\"alternate\" type=\"application/atom+xml\" title=\"rails.app : Kickstarter\"
+        href=\"http://www.kickstarter.com/projects/1397300529/railsapp/posts.atom\"
+        />\n<meta name=\"description\" content=\"Yehuda Katz is raising funds for
+        rails.app on Kickstarter! \n\n Let's make Rails on OS X easy again!\n\n&quot;Install
+        this .app. Good job, you now have a working Rails install!&quot;\"/>\n<meta
+        property=\"fb:app_id\" content=\"69103156693\"/>\n<meta property=\"og:type\"
+        content=\"kickstarter:project\"/>\n<meta property=\"kickstarter:location:longitude\"
+        content=\"-122.419\"/>\n<meta property=\"og:image\" content=\"http://s3.amazonaws.com/ksr/projects/82738/photo-full.jpg?1331014996\"/>\n<meta
+        property=\"og:site_name\" content=\"Kickstarter\"/>\n<meta name=\"title\"
+        content=\"Kickstarter &gt;&gt; rails.app by Yehuda Katz\"/>\n<meta property=\"kickstarter:location:latitude\"
+        content=\"37.7749\"/>\n<meta property=\"og:title\" content=\"rails.app\"/>\n<meta
+        property=\"og:description\" content=\"Let's make Rails on OS X easy again!\n\n&quot;Install
+        this .app. Good job, you now have a working Rails install!&quot;\"/>\n<meta
+        property=\"og:url\" content=\"http://www.kickstarter.com/projects/1397300529/railsapp\"/>\n<meta
+        name=\"csrf-param\" content=\"authenticity_token\"/>\n<meta name=\"csrf-token\"
+        content=\"KJuukW4EhKlmvrd0iZJV9uoUK4whIn+JbucbwFjH1Ac=\"/>\n<link href=\"http://kck.st/HfUVql\"
+        rel=\"shorturl\">\n<link href=\"http://www.kickstarter.com/projects/1397300529/railsapp\"
+        rel=\"canonical\">\n<link href=\"http://s3.amazonaws.com/ksr/projects/82738/photo-med.jpg?1331014996\"
+        rel=\"image_src\">\n\n<script>\n  //<![CDATA[\n    var _sf_startpt=(new Date()).getTime();\n
+        \   docElement = this.document.documentElement;\n    docElement.className=docElement.className.replace(/\\bno-js\\b/,'')
+        + 'js';\n  //]]>\n</script>\n<script>\n  //<![CDATA[\n    function timeRemaining(epochTime){\n
+        \   \n      var diff = epochTime - ((new Date()).getTime() / 1000);\n      var
+        num_unit = (diff < 60 && [Math.max(diff, 0), 'seconds']) ||\n        ((diff/=60)
+        < 60 && [diff, 'minutes']) ||\n        ((diff/=60) < 72 && [diff, 'hours'])
+        ||\n        [diff/=24, 'days'];\n    \n      // Round down\n      num_unit[0]
+        = Math.floor(num_unit[0]);\n      // Singularize unit\n      if (num_unit[0]
+        == 1) { num_unit[1] = num_unit[1].replace(/s$/,\"\"); }\n    \n      return
+        num_unit;\n    };\n  //]]>\n</script>\n</head>\n\n<body class=\"project projects\"
+        id=\"projects_show\">\n<div class=\"jGrowl center\" id=\"growl_section\"></div>\n<div
+        id=\"learn-more-wrap\">\n<div class=\"container\" id=\"learn-more\">\n<p>\n<span
+        class=\"icon-whaaat\"></span>\n<strong>What is Kickstarter?</strong>\nWe’re
+        the world's largest funding platform for creative projects.\n<a href=\"#\"
+        class=\"link_to_learn-more-dialog\">Learn more!</a>\n</p>\n</div>\n</div>\n<div
+        id=\"header-wrap\">\n<div class=\"container\" id=\"header\">\n<h1 id=\"logo\"><a
+        href=\"/\"><span>Kickstarter</span></a></h1>\n<ul id=\"menu-main\">\n<li id=\"menu-main-discover\"><a
+        href=\"/discover\"><strong>Discover</strong> <span>great projects</span></a></li>\n<li
+        id=\"menu-main-fund\"><a href=\"/start\"><strong>Start</strong> <span>your
+        project</span></a></li>\n</ul>\n<form accept-charset=\"UTF-8\" action=\"/projects/search\"
+        class=\"search\" method=\"get\"><div style=\"margin:0;padding:0;display:inline\"><input
+        name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /></div>\n<div class=\"field
+        search\">\n<span class=\"icon-search\"></span>\n<span class=\"icon-search-clear\"></span>\n<input
+        class=\"input-search header text\" data-tracker-name=\"Header Live Search\"
+        id=\"term\" name=\"term\" type=\"text\" />\n<span class=\"icon-search-nipple\"></span>\n</div>\n</form>\n\n<ul
+        id=\"menu-sub\">\n<li id=\"menu-sub-blog\"><a href=\"/blog\">Blog</a></li>\n<li
+        id=\"menu-sub-help\"><a href=\"/help\">Help</a></li>\n<li><a href=\"https://www.kickstarter.com/signup\">Sign
+        up</a></li>\n<li><a href=\"https://www.kickstarter.com/login\">Log in</a></li>\n</ul>\n</div>\n</div>\n<div
+        id=\"search_results-wrap\">\n<div id=\"search_results-shadow\">\n<div id=\"search_results-inner_wrap\">\n<div
+        class=\"container\" id=\"search_results\">\n<a class=\"close\"><span class=\"icon-x\"></span>\nClose</a>\n<h2
+        class=\"header\"></h2>\n<div id=\"search_results_panel\"></div>\n<p class=\"footer\"></p>\n<a
+        class=\"prev arrow\">\n<span class=\"icon-search-left\"></span>\n<strong>Previous</strong>\n</a>\n<a
+        class=\"next arrow\">\n<span class=\"icon-search-right\"></span>\n<strong>Next</strong>\n</a>\n</div>\n</div>\n</div>\n</div>\n\n\n\n\n\n<div
+        id=\"running-board-wrap\">\n<div class=\"container\" id=\"running-board\">\n<div
+        id=\"project-header\">\n<div class=\"NS-project_-running_board\">\n<div id=\"headrow\">\n<h1
+        id=\"name\"><a href=\"/projects/1397300529/railsapp\">rails.app</a></h1>\n<p>\n<span
+        data-project-category=\"Technology\" id=\"project_category\">\nAn\n<a href=\"/discover/categories/Open%20Software?ref=project\">Open
+        Software</a>\n</span>\nproject\nin\n<a href=\"/discover/cities/san-francisco-ca?ref=project\">San
+        Francisco, CA</a>\nby\n<a href=\"/profile/1397300529\" id=\"byline\">Yehuda
+        Katz</a>\n·\n<a href=\"/projects/1397300529/railsapp/messages/new?message[to]=1397300529\"
+        class=\"send-message remote_modal_dialog\" data-modal-title=\"Send a Message
+        to Yehuda Katz\">send message</a>\n</p>\n</div>\n\n<ul id=\"widgets\">\n<li
+        class=\"ajax-container\" id=\"following-widget\">\n<div id=\"follow-tip\">\n<p>Don't
+        want to forget? We'll remind you by email 48 hours before funding ends.</p>\n<span
+        class=\"nipple\"></span>\n</div>\n<div id=\"follow\">\n<a href=\"/projects/1397300529/railsapp/follow\"
+        class=\"button-remind-me\" data-ksrjson=\"true\">Remind Me</a>\n</div>\n\n</li>\n</ul>\n<ul
+        class=\"menu-tabs\" id=\"running-board-nav\">\n<li>\n<a href=\"/projects/1397300529/railsapp\"
+        class=\"current\" id=\"home\">Project Home</a>\n</li>\n<li>\n<a href=\"/projects/1397300529/railsapp/posts\"
+        id=\"updates\">Updates <span class='count'>0</span></a>\n</li>\n<li>\n<a href=\"/projects/1397300529/railsapp/backers\"
+        id=\"backers\">Backers <span class='count'>147</span></a>\n</li>\n<li>\n<a
+        href=\"/projects/1397300529/railsapp/comments\" id=\"comments\">Comments <span
+        class='count'>3</span></a>\n</li>\n</ul>\n</div>\n\n</div>\n</div>\n</div>\n<div
+        id=\"content-wrap\">\n<div class=\"container\" id=\"content\">\n\n<div class=\"NS-projects-content\">\n<div
+        id=\"leftcol\">\n\n<div id=\"video-section\">\n<img alt=\"Photo-full\" src=\"http://s3.amazonaws.com/ksr/projects/82738/photo-full.jpg?1331014996\"
+        />\n</div>\n<div class=\"share-box-wrap\">\n<table class=\"share-box\">\n<tbody>\n<tr>\n<td
+        class=\"facebook first\">\n<fb:like data-tracker-name=\"Facebook\" font=\"lucida
+        grande\" href=\"http://www.kickstarter.com/projects/1397300529/railsapp\"
+        show_faces=\"false\" width=\"251\"></fb:like>\n</td>\n<td class=\"twitter\">\n<a
+        class=\"twitter-share-button\" data-count=\"none\" data-tracker-name=\"Twitter\"
+        data-url=\"http://kck.st/HfUVql\" data-via=\"kickstarter\" href=\"http://twitter.com/share\"></a>\n</td>\n<td
+        class=\"embed\">\n<a href=\"/projects/1397300529/railsapp/widget\" class=\"button-action
+        remote_modal_dialog\" data-modal-title=\"Embed a widget on your site\" data-tracker-name=\"Embed\"><span
+        class='icon-embed'></span>Embed</a>\n</td>\n<td class=\"short-link\">\n<input
+        class=\"text\" id=\"share_a_link\" name=\"share_a_link\" type=\"text\" value=\"http://kck.st/HfUVql\"
+        />\n<div class=\"copy_button\">\n<a href=\"\" class=\"copy-button zeroclipboard\"
+        data-text=\"http://kck.st/HfUVql\" data-tracker-name=\"Copy Link\">Copy</a>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n\n<div
+        data-project-state=\"live\" id=\"about\">\n<h3 class=\"dotty\">About this
+        project<div class=\"clear\"></div></h3><p><b>Let's make Rails on OS X easy
+        again!</b></p><p>Getting started with Rails on OS X has gotten hard. When
+        I started working with Rails in 2005, a beginner could get up and running
+        by downloading and running Locomotive. Locomotive made good on the implicit
+        promise of the original <a href=\"http://media.rubyonrails.org/video/rails-0-5.mov\"
+        target=\"_blank\">Get Excited screencast</a>: within minutes, you too can
+        feel the power of Ruby on Rails.</p><p>By the time I became a member of the
+        Rails core team and began work on Rails 3, Locomotive was abandonware. Since
+        OS X shipped with Ruby 1.8, it seemed like a simple `gem install` would do
+        the trick. And for many people, it did.</p><p>Since then, the Ruby ecosystem
+        has become increasingly sophisticated, making tools like bundler and rvm (or
+        rbenv, if that's your thing) a part of the standard workflow. And as those
+        tools increasingly became part of the toolchain for experienced developers,
+        we lost track of the complexity of setting up the standard Ruby toolchain.</p><p>Even
+        more frustrating, every piece of the toolchain has multiple options, meaning
+        that new developers are faced with needing to choose between rvm and rbenv,
+        Ruby 1.8 and Ruby 1.9, etc.</p><p>For experienced developers, these hurdles
+        may not seem particularly large, but they frequently chase away enthusiastic
+        newcomers at exactly the wrong time.</p><p><b>Enough is enough. </b>We need
+        a way to get up and running with Rails that is as conventional and pleasant
+        as Rails itself.</p><p><b>I have a track record of delivering OSS projects.
+        </b>For the past five years, I have worked on a number of popular open source
+        projects. I am probably most well-known for my work on Rails following its
+        merge with Merb, where I was the maintainer.</p><p>My goals for Rails 3 were
+        to bring Merb's ethic of modularity and extensibility to Rails, and Rails
+        3 shipped with a stable plugin API that has paved the way for a richer extension
+        ecosystem. Jose Valim's book, <a href=\"http://pragprog.com/book/jvrails/crafting-rails-applications\"
+        target=\"_blank\">Crafting Rails Applications</a>, illustrates the power of
+        many of these extensions.</p><p>When I began work on Rails 3, the Rails ecosystem
+        desperately needed a stable foundation for long-term extensions. Today, the
+        Rails ecosystem desperately needs to get back to basics and make the experience
+        of starting fresh exciting again.</p><p>I have the track record and skills
+        to deliver a polished, maintainable solution that can become part of the Rails
+        project. Please help me get this done.</p><h1>Deliverables</h1><p>Many of
+        the necessary components for rails.app already exist in some form. <b>I do
+        not want to duplicate existing efforts</b>, where those efforts already solve
+        some part of the larger problem. I will deliver a project that lives in the
+        `rails` organization on GitHub, can be maintained by the Rails team and shipped
+        as part of the official releases.</p><p>My plan is to deliver a `.app` that
+        can be downloaded and dragged to the user's `/Applications` folder. At first,
+        the application will have two facilities:</p><ul>\n<li>Install Rails into
+        the system: This will install a working copy of Ruby, Rubygems, Rails and
+        all necessary gems into the user's system, available from the Terminal. It
+        may also install rvm and other common system tools, depending on the feedback
+        I get from the community as I develop this project.</li>\n<li>Open a Terminal
+        with a working Rails environment: This will leave all necessary resources
+        in the `.app` file or `Application Support`, but open a terminal window with
+        the `$PATH` and other variables set up.</li>\n</ul><p>The second option will
+        be the preferred option for new users, as it will be a more controlled environment
+        with fewer opportunities for something to go wrong. This will not be a toy
+        Ruby. It will be a full-fledged Ruby environment running in an isolated sandbox. <b>My
+        goal is for this mode to be something I personally would use</b>.</p><p>Over
+        time, I imagine that the community would add additional features, such as
+        the ability to start and stop the server, generate files, run migrations,
+        etc. but these are not part of the initial release goals.</p><p>The finished
+        project will also include several facilities to help with long-term maintenance:</p><ul>\n<li>It
+        will prompt the user to accept patch-level updates to Ruby or Rails without
+        requiring a new download of the entire package.</li>\n<li>Each `.app` will
+        be a self-contained environment for a given version of Ruby and Rails, so
+        multiple copies can live side-by-side for users who want to work with, for
+        example, Rails 3.1 and Rails 3.2 for different projects.</li>\n<li>The release
+        of a new version of the `.app` will be fully scripted, working off of release
+        tags of the Rails repository. At the very *most* a single rake task will build
+        and deploy new versions and make those versions available to the `.app`'s
+        updater.</li>\n<li>It will be easy to build a nightly build server for people
+        who want to live on the edge.</li>\n</ul><p>If time permits, I also would
+        like the framework for building this self-contained `.app` to be useful for
+        other projects (such as Compass/Sass) that have a desire to ship self-contained
+        environments for working with Ruby-based tools.</p>\n</div>\n<div class=\"NS-projects-faqs\"
+        id=\"project-faqs\">\n<h3 class=\"dotty hidden\">\nFAQ\n</h3>\n<ul class=\"faqs\">\n\n</ul>\n<div
+        class=\"faq-ask-box\">\n<a href=\"/projects/1397300529/railsapp/messages/new?message[to]=1397300529&amp;mode=FAQ\"
+        class=\"remote_modal_dialog button-neutral\" data-modal-title=\"Ask a question
+        about rails.app\">Ask a question</a>\n<p>\n<strong>Have a question?</strong>\nIf
+        the info above doesn't help, you can ask the project creator directly.\n</p>\n</div>\n</div>\n\n<div
+        id=\"report-issue-wrap\">\n<a href=\"/projects/1397300529/railsapp/report/new\"
+        class=\"remote_modal_dialog\" data-modal-title=\"Report this project to Kickstarter\"
+        id=\"report-issue-link\">Report this project to Kickstarter</a>\n</div>\n</div>\n<div
+        class=\"NS-projects-rightcol\" id=\"rightcol\">\n<div class=\"NS-projects-ecom\"
+        id=\"moneyraised\">\n<h5>\n<div class=\"num\">147</div>\nBackers\n</h5>\n<h5>\n<div
+        class=\"num\">$4,580</div>\npledged of $25,000 goal\n</h5>\n<h5 class=\"ksr_page_timer\"
+        data-end_time=\"Sat, 12 May 2012 16:53:15 -0400\">\n<div class=\"num\">&nbsp;</div>\n<span
+        class=\"text\">&nbsp;</span>\n</h5>\n<div id=\"banner\">\nThis project will
+        only be funded if at least $25,000 is pledged by Saturday May 12,  4:53pm
+        EDT.\n</div>\n<div id=\"pledge-wrap\">\n<a href=\"/projects/1397300529/railsapp/pledge/new?clicked_reward=false&amp;logged_in=false&amp;p=0&amp;v=n\"
+        class=\"button roundsmall\" id=\"button-back-this-proj\" title=\"Back This
+        Project\">Back This Project <small>$1 minimum pledge</small></a>\n</div>\n</div>\n\n<div
+        class=\"NS-projects-rightcol-rewards clickable\" id=\"what-you-get\">\n<div
+        class=\"NS-projects-reward clickable\">\n<h3>\n<a href=\"/projects/1397300529/railsapp/pledge/new?backing[amount]=10.0&amp;backing[backer_reward_id]=477812&amp;clicked_reward=true&amp;logged_in=false\">Pledge
+        $10 or more</a>\n<span>Pledge $10 or more</span>\n</h3>\n<div class=\"backers-limits\">\n<span
+        class=\"icon-backer-tag\"></span>\n<span class=\"num-backers\">\n29 Backers\n</span>\n</div>\n<div
+        class=\"desc\">\n<p>Receive a handwritten thank you for sponsoring this project.</p>\n</div>\n<div
+        class=\"delivery-date\">\n<strong>Estimated Delivery:</strong>\nJun 2012\n</div>\n</div>\n<div
+        class=\"NS-projects-reward clickable\">\n<h3>\n<a href=\"/projects/1397300529/railsapp/pledge/new?backing[amount]=25.0&amp;backing[backer_reward_id]=477813&amp;clicked_reward=true&amp;logged_in=false\">Pledge
+        $25 or more</a>\n<span>Pledge $25 or more</span>\n</h3>\n<div class=\"backers-limits\">\n<span
+        class=\"icon-backer-tag\"></span>\n<span class=\"num-backers\">\n61 Backers\n</span>\n</div>\n<div
+        class=\"desc\">\n<p>The previous rewards, plus receive a first-edition backers-only
+        sticker so you can show your support. My laptop is graced with an &quot;I'm
+        committed&quot; sticker that the Rubinius project gave me for my early contributions--this
+        is your chance to spruce up any of your belongings in desperate need of a
+        stickering.</p>\n</div>\n<div class=\"delivery-date\">\n<strong>Estimated
+        Delivery:</strong>\nJul 2012\n</div>\n</div>\n<div class=\"NS-projects-reward
+        clickable\">\n<h3>\n<a href=\"/projects/1397300529/railsapp/pledge/new?backing[amount]=100.0&amp;backing[backer_reward_id]=477814&amp;clicked_reward=true&amp;logged_in=false\">Pledge
+        $100 or more</a>\n<span>Pledge $100 or more</span>\n</h3>\n<div class=\"backers-limits\">\n<span
+        class=\"icon-backer-tag\"></span>\n<span class=\"num-backers\">\n21 Backers\n</span>\n</div>\n<div
+        class=\"desc\">\n<p>The previous rewards, plus access to the internal list
+        for the project, where I'll be soliciting feedback about how to nail this.
+        Great open source projects rarely come from the ideas of just one person,
+        and your input will guarantee that Rails 4 is as great for beginners as it
+        is for experienced developers.</p>\n</div>\n<div class=\"delivery-date\">\n<strong>Estimated
+        Delivery:</strong>\nMay 2012\n</div>\n</div>\n<div class=\"NS-projects-reward
+        clickable\">\n<h3>\n<a href=\"/projects/1397300529/railsapp/pledge/new?backing[amount]=1000.0&amp;backing[backer_reward_id]=477815&amp;clicked_reward=true&amp;logged_in=false\">Pledge
+        $1,000 or more</a>\n<span>Pledge $1,000 or more</span>\n</h3>\n<div class=\"backers-limits\">\n<span
+        class=\"icon-backer-tag\"></span>\n<span class=\"num-backers\">\n0 Backers\n</span>\n<span
+        class=\"limited\">\n&bull; Limited Reward\n(10 of 10 remaining)\n</span>\n</div>\n<div
+        class=\"desc\">\n<p>The previous rewards, plus recognition on the project's
+        website as a backer. If the price is a bit too steep personally, this is a
+        good opportunity to ask your company to contribute to a good cause.</p>\n</div>\n<div
+        class=\"delivery-date\">\n<strong>Estimated Delivery:</strong>\nJul 2012\n</div>\n</div>\n<div
+        class=\"NS-projects-reward clickable\">\n<h3>\n<a href=\"/projects/1397300529/railsapp/pledge/new?backing[amount]=10000.0&amp;backing[backer_reward_id]=550490&amp;clicked_reward=true&amp;logged_in=false\">Pledge
+        $10,000 or more</a>\n<span>Pledge $10,000 or more</span>\n</h3>\n<div class=\"backers-limits\">\n<span
+        class=\"icon-backer-tag\"></span>\n<span class=\"num-backers\">\n0 Backers\n</span>\n<span
+        class=\"limited\">\n&bull; Limited Reward\n(2 of 2 remaining)\n</span>\n</div>\n<div
+        class=\"desc\">\n<p>The previous rewards, plus recognition on the project's
+        website as a sponsor. This recognition will appear above the fold on the front
+        page for at least one year. If you or your company is building a product that
+        appeals to new developers, this is a great way to get some visibility, and
+        give back to the community :D\n\nPing me. Let's talk about how we can both
+        get the most out of this.</p>\n</div>\n<div class=\"delivery-date\">\n<strong>Estimated
+        Delivery:</strong>\nJul 2012\n</div>\n</div>\n\n</div>\n\n<div class=\"NS-projects-rightcol-projectby\"
+        id=\"project-by\">\n<h3 class=\"dotty\">Project By<div class=\"clear\"></div></h3><div
+        id=\"avatar\">\n<a href=\"/profile/1397300529\"><img alt=\"Fb_profile_picture.large\"
+        class=\"avatar-large\" height=\"220\" src=\"http://s3.amazonaws.com/ksr/avatars/441663/fb_profile_picture.large.jpg?1301941659\"
+        width=\"220\" /></a>\n</div>\n<div id=\"creator-details\">\n<h3><a href=\"/profile/1397300529\">Yehuda
+        Katz</a></h3>\n<p class=\"last-login\">\nLast Login\n03/28/12\n</p>\n<ul>\n<li
+        class=\"location\">\n<a href=\"/discover/cities/san-francisco-ca\"><span class='icon'></span>San
+        Francisco, CA</a>\n</li>\n<li class=\"backed\">\n<a href=\"/profiles/1397300529/projects/backed\"
+        class=\"more-button remote_modal_dialog\" data-modal-title=\"Projects backed
+        by Yehuda Katz\"><span class='icon'></span>Backed 2 projects</a>\n</li>\n<li
+        class=\"contactme\">\n<a href=\"/projects/1397300529/railsapp/messages/new?message[to]=1397300529\"
+        class=\"remote_modal_dialog\" data-modal-title=\"Send A Message to Yehuda
+        Katz\"><span class='icon'></span>Send Message</a>\n</li>\n</ul>\n</div>\n<div
+        id=\"facebook-connect\">\n<div class=\"icon\"></div>\n<p>Connected\nas\n<a
+        href=\"http://facebook.com/16200017\" class=\"popup\" target=\"_blank\">Yehuda
+        Katz</a>\n(400&nbsp;friends)\n</p>\n</div>\n<div id=\"biography\">\n<p>I have
+        a history of working on hard open source projects and delivering on them.</p>\n\n<p>Since
+        2008, I worked on the Merb project, helped lead the Rails 3 effort, and am
+        currently bringing convention over configuration to the browser with Ember.js.</p>\n</div>\n<ol
+        id=\"sites\">\n<li>\n<a href=\"http://www.yehudakatz.com\" class=\"popup\"
+        rel=\"nofollow\" target=\"_blank\">yehudakatz.com</a>\n</li>\n<li>\n<a href=\"http://github.com/wycats\"
+        class=\"popup\" rel=\"nofollow\" target=\"_blank\">github.com</a>\n</li>\n<li>\n<a
+        href=\"http://twitter.com/wycats\" class=\"popup\" rel=\"nofollow\" target=\"_blank\">twitter.com</a>\n</li>\n</ol>\n</div>\n\n</div>\n\n</div>\n\n\n</div>\n</div>\n<div
+        id=\"project_bar\">\n<div class=\"this_project_id\" style=\"display: none;\">82738</div>\n<div
+        class=\"container\">\n<img alt=\"Project_bar_shadow\" class=\"shadow\" src=\"http://d297h9he240fqh.cloudfront.net/cache-e1f3b9f54/images/projects/project_bar_shadow.png\"
+        />\n<div class=\"window\">\n<ol class=\"projects\">\n<li class=\"page\">\n<ol></ol>\n</li>\n</ol>\n</div>\n<a
+        href=\"#\" class=\"prev arrow enabled\"><div class=\"icon-project-bar-left\"></div>\n</a><a
+        href=\"#\" class=\"next arrow enabled\"><div class=\"icon-project-bar-right\"></div>\n</a></div>\n</div>\n\n\n\n\n<div
+        id=\"mega-footer-wrap\">\n<div id=\"mega-footer-shadow\">\n<div class=\"container\"
+        id=\"mega-footer\">\n<div id=\"mega-discover\">\n<h5>Browse Categories</h5>\n<ul
+        class=\"list-footer-categories list-0\">\n<li><a href=\"/discover/categories/art?ref=footer\">Art</a></li>\n<li><a
+        href=\"/discover/categories/comics?ref=footer\">Comics</a></li>\n<li><a href=\"/discover/categories/dance?ref=footer\">Dance</a></li>\n<li><a
+        href=\"/discover/categories/design?ref=footer\">Design</a></li>\n<li><a href=\"/discover/categories/fashion?ref=footer\">Fashion</a></li>\n<li><a
+        href=\"/discover/categories/film%20&amp;%20video?ref=footer\">Film &amp; Video</a></li>\n<li><a
+        href=\"/discover/categories/food?ref=footer\">Food</a></li>\n</ul>\n<ul class=\"list-footer-categories
+        list-1\">\n<li><a href=\"/discover/categories/games?ref=footer\">Games</a></li>\n<li><a
+        href=\"/discover/categories/music?ref=footer\">Music</a></li>\n<li><a href=\"/discover/categories/photography?ref=footer\">Photography</a></li>\n<li><a
+        href=\"/discover/categories/publishing?ref=footer\">Publishing</a></li>\n<li><a
+        href=\"/discover/categories/technology?ref=footer\">Technology</a></li>\n<li><a
+        href=\"/discover/categories/theater?ref=footer\">Theater</a></li>\n</ul>\n</div>\n<div
+        id=\"mega-join-like\">\n<form accept-charset=\"UTF-8\" action=\"/newsletters/signup\"
+        class=\"overlabels\" method=\"post\"><div style=\"margin:0;padding:0;display:inline\"><input
+        name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input name=\"authenticity_token\"
+        type=\"hidden\" value=\"KJuukW4EhKlmvrd0iZJV9uoUK4whIn+JbucbwFjH1Ac=\" /></div>\n<h5>Kickstarter's
+        weekly newsletter</h5>\n<p>Get awesome projects delivered to your inbox each
+        week.</p>\n<textarea class=\"hide textarea\" id=\"comment\" name=\"comment\"></textarea>\n<div
+        class=\"field newsletter\">\n<label class=\"overlabel overlabel-newsletter\">Your
+        email address...</label>\n<input class=\"text\" id=\"email\" name=\"email\"
+        type=\"text\" />\n</div>\n<input class=\"button-positive submit\" id=\"user_submit\"
+        name=\"commit\" type=\"submit\" value=\"Join newsletter\" />\n</form>\n\n<h5>Kickstarter
+        on Facebook</h5>\n<fb:like href=\"http://facebook.com/kickstarter\" show_faces=\"true\"
+        width=\"330\"></fb:like>\n</div>\n<div id=\"mega-connect\">\n<h5>Connect with
+        Kickstarter</h5>\n<ul id=\"list-footer-connect\">\n<li><a href=\"http://twitter.com/kickstarter\"
+        id=\"footer-twitter\"><span class='icon-footer-twitter'></span>Follow on Twitter</a></li>\n<li><a
+        href=\"/blog\" id=\"footer-blog\"><span class='icon-footer-blog'></span>Read
+        our blog</a></li>\n<li><a href=\"/team?ref=footer\" id=\"footer-team\"><span
+        class='icon-footer-team'></span>Meet the team</a></li>\n<li><a href=\"/jobs?ref=footer\"
+        id=\"footer-jobs\"><span class='icon-footer-jobs'></span>Work with us</a></li>\n</ul>\n<span
+        class=\"scissors icon-scissors-1\"></span>\n</div>\n</div>\n</div>\n</div>\n<div
+        id=\"footer-wrap\">\n<div class=\"container\" id=\"footer\">\n<div id=\"etc\">\n<ul>\n<li><a
+        href=\"/help?ref=footer\">Help</a></li>\n<li><a href=\"/help/guidelines?ref=footer\">Guidelines</a></li>\n<li><a
+        href=\"/terms-of-use?ref=footer\">Terms of Use</a></li>\n<li><a href=\"/privacy?ref=footer\">Privacy
+        Policy</a></li>\n<li class=\"last\"><a href=\"http://kickstarter.zendesk.com/home\"
+        id=\"\" onclick=\"Zenbox.render(); return false;\">Contact</a></li>\n</ul>\n</div>\n<div
+        id=\"legal\">\n&copy;\n2012\nKickstarter, Inc.\n</div>\n</div>\n</div>\n\n<script>\n
+        \ //<![CDATA[\n    var gaJsHost = ((\"https:\" == document.location.protocol)
+        ? \"https://ssl.\" : \"http://www.\");\n    document.write(unescape(\"%3Cscript
+        src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\n
+        \   var analytics_vars = { google_analytics_id : \"UA-7621056-1\", logged_in
+        : \"false\", verifying_backing : \"false\" }\n  //]]>\n</script>\n\n\n<script>\n
+        \ //<![CDATA[\n    _qoptions={qacct:\"p-34IbSpw2K94Sg\"};\n  //]]>\n</script>\n<script
+        src=\"http://edge.quantserve.com/quant.js\" type=\"text/javascript\"></script>\n<noscript><img
+        alt=\"Quantcast\" border=\"0\" height=\"1\" src=\"http://pixel.quantserve.com/pixel/p-34IbSpw2K94Sg.gif\"
+        style=\"display:none\" width=\"1\" /></noscript>\n\n<script>\n  //<![CDATA[\n
+        \   var _sf_async_config={uid:5536,domain:\"kickstarter.com\"};\n    (function(){\n
+        \     function loadChartbeat() {\n        window._sf_endpt=(new Date()).getTime();\n
+        \       var e = document.createElement('script');\n        e.setAttribute('language',
+        'javascript');\n        e.setAttribute('type', 'text/javascript');\n        e.setAttribute('src',\n
+        \          ((\"https:\" == document.location.protocol) ? \"https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/\"
+        : \"http://static.chartbeat.com/\") +\n           \"js/chartbeat.js\");\n
+        \       document.body.appendChild(e);\n      }\n      var oldonload = window.onload;\n
+        \     window.onload = (typeof window.onload != 'function') ?\n         loadChartbeat
+        : function() { oldonload(); loadChartbeat(); };\n    })();\n  //]]>\n</script>\n\n<div
+        class=\"modal_dialog\" id=\"learn-more-dialog\" style=\"display: none;\">\n<div
+        class=\"modal_dialog_ie6_background\"></div>\n<div class=\"modal_dialog_outer\">\n<div
+        class=\"modal_dialog_sizer\">\n<div class=\"modal_dialog_inner\">\n<div class=\"modal_dialog_content\">\n<div
+        class=\"modal_dialog_head\"><h4><span>What is Kickstarter?</span></h4><a class=\"modal_dialog_close\"
+        href=\"#\"><span class=\"icon-x\">Close</span></a></div>\n<div class=\"modal_dialog_body\">\n<div
+        id=\"learn-more\">\n<p><strong>Kickstarter is the world's largest funding
+        platform for creative projects.</strong> Every week, tens of thousands of
+        amazing people pledge millions of dollars to projects from the worlds of <span
+        class='category-1'>music</span>, <span class='category-2'>film</span>, <span
+        class='category-3'>art</span>, <span class='category-4'>technology</span>,
+        <span class='category-5'>design</span>, <span class='category-6'>food</span>,
+        <span class='category-7'>publishing</span> and other creative fields.</p>\n<p>\n<strong>A
+        new form of commerce and patronage.</strong>\nThis is not about investment
+        or lending. Project creators keep 100% ownership and control over their work.
+        Instead, they offer products and experiences that are unique to each project.\n</p>\n<p>\n<strong>All
+        or nothing funding.</strong>\nOn Kickstarter, a project must reach its funding
+        goal before time runs out or no money changes hands. Why? It protects everyone
+        involved. Creators aren’t expected to develop their project without necessary
+        funds, and it allows anyone to test concepts without risk.\n</p>\n<p>\n<strong>Each
+        and every project is the independent creation of someone like you.</strong>\nProjects
+        are big and small, serious and whimsical, traditional and experimental. They’re
+        inspiring, entertaining and unbelievably diverse. We hope you agree... Welcome
+        to Kickstarter!\n</p>\n<p><a href=\"#\" class=\"modal_dialog_close\">Thanks!
+        All done.</a></p>\n</div>\n\n</div>\n</div>\n</div>\n<span class=\"modal_dialog_ie_hack\"></span>\n</div>\n</div>\n</div>\n\n<script
+        src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js\" type=\"text/javascript\"></script>\n<script>\n
+        \ //<![CDATA[\n    (function () {\n      function PageClock(settings){\n        this.local_start_time
+        = new Date();\n        this.settings = {\n          cookie_name : 'request_time'\n
+        \       };\n        for (var k in settings) {\n          this.settings[k]
+        = settings[k];\n        }\n        this.get_remote_offset();\n      }\n    \n
+        \     PageClock.prototype.get_remote_offset = function () {\n        // try
+        to get remote time from cookie\n        this.cookie_value = this.read_cookie();\n
+        \       var remote_start_time = new Date( this.cookie_value );\n    \n        if
+        (!this.cookie_value || remote_start_time.toString() === 'Invalid Date') {\n
+        \         // try to get the offset from the local_offset cookie, if present\n
+        \         // this situation arises when the back button is clicked\n          this.remote_offset
+        = this.read_cookie('local_offset');\n          if (this.remote_offset) {\n
+        \           this.remote_offset = parseInt(this.remote_offset, 10);\n          }\n
+        \       } else {\n          this.remote_offset = remote_start_time - this.local_start_time;\n
+        \       }\n    \n        if (typeof this.remote_offset !== 'undefined') {\n
+        \         document.cookie = 'local_offset=' + this.remote_offset + '; path=/';\n
+        \         this.is_set = true;\n        } else {\n          this.is_set = false;\n
+        \       }\n      };\n    \n      PageClock.prototype.time_units = [\n        ['milliseconds',
+        1],\n        ['seconds', 1000],\n        ['minutes', 1000 * 60],\n        ['hours',
+        \  1000 * 60 * 60],\n        ['days',    1000 * 60 * 60 * 24]\n      ];\n
+        \   \n      PageClock.prototype.get_units_in_interval = function(unit_name,
+        time) {\n        var method_name = unit_name.replace(/^\\w/, function(l) {\n
+        \         return 'get' + l.toUpperCase();\n        });\n        return time[method_name]();\n
+        \     };\n    \n      PageClock.prototype.milliseconds_in_day = function(time)
+        {\n        if (typeof time === 'undefined') {\n          time = new Date();\n
+        \       }\n        var milliseconds = 0;\n        for (var i=this.time_units.length
+        - 2; i >= 0; i--) {\n          milliseconds += this.get_units_in_interval(this.time_units[i][0],
+        time) * this.time_units[i][1];\n        }\n        return milliseconds;\n
+        \     };\n    \n      PageClock.prototype.milliseconds_in_interval = function(unit_length,
+        time) {\n        return this.milliseconds_in_day(time) % unit_length;\n      };\n
+        \   \n      PageClock.prototype.milliseconds_to_next_interval = function(unit_length,
+        time) {\n        return unit_length - this.milliseconds_in_interval(unit_length,
+        time);\n      };\n    \n      PageClock.prototype.pluralize = function(unit,
+        num) {\n        if (num === 1) {\n          unit = unit.replace(/s$/, '');\n
+        \       }\n        return unit;\n      };\n    \n    \n      PageClock.prototype.read_cookie
+        = function(cookie_name){\n        var\n          ca = window.document.cookie.split(';'),\n
+        \         cookie_string = (cookie_name || this.settings.cookie_name) + '=';\n
+        \       for (var i=0;i < ca.length;i++) {\n          var c = ca[i];\n          while
+        (c.charAt(0)==' ') {\n            c = c.substring(1,c.length);\n          }\n
+        \         if (c.indexOf(cookie_string) == 0) {\n            var encoded_string
+        = c.substring(cookie_string.length,c.length);\n            return decodeURIComponent(encoded_string).replace(/\\+/g,
+        ' ');\n          }\n        }\n        return null;\n      };\n    \n      PageClock.prototype.destroy_cookie
+        = function() {\n        var expires = new Date();\n        expires.setTime(expires.getTime()
+        - 1 * 24 * 60 * 60 * 1000);\n        window.document.cookie = this.settings.cookie_name
+        + \"=; expires=\" + expires.toGMTString() + \"; path=/\";\n      };\n    \n
+        \     PageClock.prototype.get_remote_time = function() {\n        var\n          time
+        = new Date(),\n          remote_milliseconds = time.getTime() + this.remote_offset;\n
+        \       time = time.setTime(remote_milliseconds);\n        return time;\n
+        \     };\n    \n      window.ksr_page_clock = new PageClock();\n    })();\n
+        \   \n    (function(){\n      // simple_find( selector [, context_element]
+        )\n      // selector: a string in the form [tag_name].class_name : must include
+        a dot-prefixed css class\n      var simple_find = function(selector, context)
+        {\n        var\n          root = context || window.document.body,\n          parts
+        = selector.split('.'),\n          class_name = parts[parts.length - 1],\n
+        \         tag_name = (parts.length > 1 && parts[0]) ? parts[0] : '*';\n    \n
+        \       if (window.document.getElementsByClassName) {\n          return root.getElementsByClassName(class_name);\n
+        \       }\n    \n        if (root.querySelectorAll) {\n          tag_name
+        = tag_name || '';\n          return root.querySelectorAll(selector);\n        }\n
+        \   \n        // lame, fall back\n        var\n          much_elements = root.getElementsByTagName(tag_name),\n
+        \         elements = [];\n        for (var i = 0, much_element; much_element
+        = much_elements[i]; i++) {\n          if (this.hasClass(much_element, class_name))
+        {\n            elements.push(much_element);\n          }\n        }\n        return
+        elements;\n      }\n    \n      // TODO: decouple this class from the DOM\n
+        \     function ProjectTimer(element, clock, options) {\n        this.options
+        = {\n          unit_base : {\n            'seconds' : 119,\n            'minutes'
+        : 119,\n            'hours'   : 72,\n            'days'    : 0\n          },\n
+        \         end_phrase : (element.getAttribute('data-word') || 'to go'),\n          count_down
+        : false\n        };\n        for (k in options) {\n          this.options[k]
+        = options[k];\n        }\n        this.clock = clock;\n        this.time_units
+        = this.clock.time_units.slice(1);\n        this.element = element;\n        if
+        (this.clock.is_set) {\n          this.attach();\n        }\n      };\n    \n
+        \     ProjectTimer.prototype.get_remaining_time = function() {\n        var
+        time = this.remote_end_time - this.clock.get_remote_time();\n        if (time
+        < 0) {\n          time = 0;\n        }\n        return time;\n      };\n    \n
+        \     ProjectTimer.prototype.get_current_unit = function() {\n        var
+        unit;\n        for (var i=0; i < this.time_units.length; i++) {\n          unit
+        = this.time_units[i];\n          if (this.get_remaining_time() <= this.options.unit_base[unit[0]]
+        * unit[1]) {\n            break;\n          }\n        }\n        return unit;\n
+        \     };\n    \n      ProjectTimer.prototype.update_element = function() {\n
+        \       var\n          unit = this.get_current_unit(),\n          number_of_units
+        = Math.floor(this.get_remaining_time() / unit[1]);\n        if (isNaN(number_of_units))
+        { return; }\n        this.number_element.innerHTML = number_of_units;\n        this.text_element.innerHTML
+        = this.clock.pluralize(unit[0], number_of_units) + ' ' + this.options.end_phrase;\n
+        \     };\n    \n      ProjectTimer.prototype.valid = function() {\n        return
+        !!(this.number_element && this.text_element);\n      };\n    \n      ProjectTimer.prototype.attach
+        = function() {\n        function count() {\n          timer.update_element();\n
+        \         if (timer.options.count_down && timer.get_remaining_time() > 0)
+        {\n            var unit = timer.get_current_unit();\n            this.timeout
+        = window.setTimeout(count, timer.clock.milliseconds_to_next_interval(unit[1]));\n
+        \         }\n        }\n        var timer = this;\n        this.remote_end_time_string
+        = this.element.getAttribute('data-end_time');\n        this.remote_end_time
+        = new Date(this.remote_end_time_string);\n        this.number_element = simple_find('.num',
+        this.element)[0],\n        this.text_element = simple_find('.text', this.element)[0],\n
+        \       this.element.ksr_page_timer = true;\n        if (this.valid()) {\n
+        \         count();\n        }\n      };\n    \n      ProjectTimer.prototype.cancel
+        = function () {\n        if (this.timeout) {\n          clearTimeout(this.timeout);\n
+        \       }\n      };\n    \n      function TimerFinder() {\n        this.elements
+        = [];\n        this.attach();\n      }\n    \n      TimerFinder.prototype.loading
+        = true;\n    \n      TimerFinder.prototype.stop_finding = function() {\n        this.attach_timers();\n
+        \       this.loading = false;\n    \n        if ( document.addEventListener
+        ) {\n          document.removeEventListener( \"DOMContentLoaded\", this.stop_finding,
+        false );\n        } else if ( document.attachEvent ) {\n          if ( document.readyState
+        === \"complete\" ) {\n            document.detachEvent( \"onreadystatechange\",
+        this.stop_finding );\n          }\n        }\n      };\n    \n      TimerFinder.prototype.bind_ready
+        = function() {\n        var\n          that = this,\n          stop_finding
+        = function () {\n            that.stop_finding.call(that);\n          };\n
+        \   \n        // lifted from jQuery's .ready() method:\n        // Mozilla,
+        Opera and webkit nightlies currently support this event\n        if ( document.addEventListener
+        ) {\n          // Use the handy event callback\n          document.addEventListener(
+        \"DOMContentLoaded\", stop_finding, false );\n    \n          // A fallback
+        to window.onload, that will always work\n          window.addEventListener(
+        \"load\", stop_finding, false );\n    \n        // If IE event model is used\n
+        \       } else if ( document.attachEvent ) {\n          // ensure firing before
+        onload,\n          // maybe late but safe also for iframes\n          document.attachEvent(
+        \"onreadystatechange\", stop_finding );\n    \n          // A fallback to
+        window.onload, that will always work\n          window.attachEvent( \"onload\",
+        stop_finding );\n        }\n      };\n    \n      TimerFinder.prototype.attach_timers
+        = function () {\n        var elements = simple_find('div.ksr_page_timer');\n
+        \       for (var i=0; i < elements.length; i++) {\n          if (!elements[i].ksr_page_timer)
+        {\n            new ProjectTimer(elements[i], window.ksr_page_clock);\n            this.elements.push(elements[i]);\n
+        \         }\n        }\n      };\n    \n      TimerFinder.prototype.attach
+        = function() {\n        var that = this;\n        function poll_for_timers()
+        {\n          that.attach_timers();\n          if (that.loading) {\n            window.setTimeout(that.attach_timers,
+        200);\n          }\n        }\n        this.bind_ready();\n        poll_for_timers();\n
+        \     };\n    \n      window.ProjectTimer = ProjectTimer;\n    \n      new
+        TimerFinder();\n    })();\n  //]]>\n</script>\n\n<script src=\"http://d297h9he240fqh.cloudfront.net/cache-e1f3b9f54/assets/jwplayer.js\"
+        type=\"text/javascript\"></script>\n<script src=\"http://d297h9he240fqh.cloudfront.net/cache-e1f3b9f54/assets/project_page.js\"
+        type=\"text/javascript\"></script>\n<style type=\"text/css\" media=\"screen,
+        projection\">@import url(http://asset0.zendesk.com/external/zenbox/v2.1/zenbox.css);</style><script
+        type=\"text/javascript\" src=\"http://asset0.zendesk.com/external/zenbox/v2.1/zenbox.js\"></script><script
+        type=\"text/javascript\">\n//<![CDATA[\n      if (typeof(Zenbox) !== \"undefined\")
+        {\n        Zenbox.init({\n          dropboxID: \"20012797\",\n          tabID:
+        \"support\",\n          hide_tab: true,\n          url: \"kickstarter.zendesk.com\"\n
+        \       });\n      }\n\n//]]>\n</script>\n<script src=\"http://platform.twitter.com/widgets.js\"
+        type=\"text/javascript\"></script>\n\n\n\n<div id=\"fb-root\"></div>\n<script>\n
+        \ //<![CDATA[\n    var channelUrl = window.location.protocol + \"//\" + window.location.host
+        + \"/channel.html\";\n    \n    window.fbAsyncInit = function() {\n      FB.init({\n
+        \       appId: '69103156693',\n        channelUrl: channelUrl,\n        status:
+        true,    // check login status\n        cookie: true,    // enable cookies
+        to allow the server to access the session\n        xfbml: true,     // parse
+        XFBML\n        logging: false   // turn off logging\n      });\n    \n      $(document).trigger('fb:loaded');\n
+        \   \n      var logout_from_fb = false;\n    \n      FB.Event.subscribe('auth.statusChange',
+        function(response) {\n        if (logout_from_fb) {\n          FB.logout(function()
+        {\n            logout_from_fb = false;\n          });\n        } else if (response.authResponse
+        && true && true && true && !FB.usingButton) {\n          $.get(\"http://www.kickstarter.com/fb/connect/verify?then=http%3A%2F%2Fwww.kickstarter.com%2Fprojects%2F1397300529%2Frailsapp\",
+        {'fbsr': response.authResponse.signedRequest}, function() {});\n        }\n
+        \     });\n      \n    };\n    \n    \n    // Load the SDK Asynchronously\n
+        \   (function(d){\n      var js, id = 'facebook-jssdk'; if (d.getElementById(id))
+        {return;}\n      js = d.createElement('script'); js.id = id; js.async = true;\n
+        \     js.src = \"//connect.facebook.net/en_US/all.js\";\n      d.getElementsByTagName('head')[0].appendChild(js);\n
+        \   }(document));\n  //]]>\n</script>\n\n\n<script type=\"text/javascript\">if
+        (!NREUMQ.f) { NREUMQ.f=function() {\nNREUMQ.push([\"load\",new Date().getTime()]);\nvar
+        e=document.createElement(\"script\");\ne.type=\"text/javascript\";e.async=true;e.src=\"https://d1ros97qkrwjf5.cloudfront.net/30/eum/rum.js\";\ndocument.body.appendChild(e);\nif(NREUMQ.a)NREUMQ.a();\n};\nNREUMQ.a=window.onload;window.onload=NREUMQ.f;\n};\nNREUMQ.push([\"nrfj\",\"beacon-1.newrelic.com\",\"b04b883ad2\",11086,\"cFteRUULX1wHFhtIEFxeVVJDFxxDCgtD\",0.0,120,new
+        Date().getTime(),\"\",\"\",\"\",\"\",\"\"])</script></body>\n</html>\n"
+    http_version: !!null 
+  recorded_at: Wed, 28 Mar 2012 23:06:47 GMT
+recorded_with: VCR 2.0.0

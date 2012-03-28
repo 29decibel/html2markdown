@@ -4,12 +4,15 @@ require_relative '../../lib/html2markdown'
 
 describe HTMLPage do
 
-  # it "should have url and contents property" do
-  #   url = 'http://bbs.qyer.com/viewthread.php?tid=503325&extra=page%3D1'
-  #   page = HTMLPage.new :url => url
-  #   page.contents.should_not be_nil
-  #   page.url.should == url
-  # end
+  it "should fetch contents of url" do
+    url = 'http://www.kickstarter.com/projects/1397300529/railsapp'
+    VCR.use_cassette 'html_page' do
+      page = HTMLPage.new :url => url
+      page.contents.should_not be_nil
+      page.url.should == url
+      page.markdown.length.should > 0
+    end
+  end
 
   it "can convert to markdow format" do
     contents = <<-CON
@@ -72,7 +75,6 @@ NEXT！<br>
     end
     markdown = page.to_markdown page.contents
     markdown.length.should > 0
-    puts markdown
   end
 
   it "should have markdown method" do

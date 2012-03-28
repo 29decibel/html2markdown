@@ -5,6 +5,8 @@ group :development, :test do
   # Testing infrastructure
   gem 'guard'
   gem 'guard-rspec'
+  gem 'vcr'
+  gem 'webmock'
 
 end
 

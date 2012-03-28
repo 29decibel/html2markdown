@@ -38,6 +38,8 @@ module HTML2Markdown
       # default parse
       case node.name.downcase
       when 'i'
+      when 'script'
+      when 'style'
       when 'li'
         result << "*#{contents}\n"
       when 'blockquote'
