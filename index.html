@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Html2markdown by 29decibel</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Html2markdown</h1>
+        <p>simple and flexible html to markdown converter</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/29decibel/html2markdown" class="button fork"><strong>Fork On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/29decibel/html2markdown/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/29decibel/html2markdown/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h3>Simple html to Markdown ruby gem</h3>
+
+<p>We love markdown, cause it is friendly to edit.
+So we want everything to be <strong>markdown</strong></p>
+
+<h3>RSpec is our promise</h3>
+
+<div class="highlight">
+<pre><span class="nb">p</span> <span class="o">=</span> <span class="no">HTMLPage</span><span class="o">.</span><span class="n">new</span> <span class="ss">:contents</span> <span class="o">=&gt;</span> <span class="s1">'&lt;strong&gt;haha&lt;/strong&gt;'</span>
+<span class="nb">p</span><span class="o">.</span><span class="n">markdown</span><span class="o">.</span><span class="n">should</span> <span class="o">==</span> <span class="s1">'**haha**'</span>
+<span class="nb">p</span><span class="o">.</span><span class="n">contents</span> <span class="o">=</span> <span class="s1">'&lt;strong&gt;hehe&lt;/strong&gt;'</span>
+<span class="nb">p</span><span class="o">.</span><span class="n">markdown!</span><span class="o">.</span><span class="n">should</span> <span class="o">==</span> <span class="s1">'**hehe**'</span>
+
+<span class="c1"># you can also define your own node parse</span>
+<span class="nb">p</span><span class="o">.</span><span class="n">strong</span> <span class="k">do</span> <span class="o">|</span><span class="n">node</span><span class="p">,</span><span class="n">contents</span><span class="o">|</span>
+  <span class="s2">"strong text : **</span><span class="si">#{</span><span class="n">contents</span><span class="si">}</span><span class="s2">**"</span>
+<span class="k">end</span>
+<span class="nb">p</span><span class="o">.</span><span class="n">markdown!</span><span class="o">.</span><span class="n">should</span> <span class="n">be_include</span><span class="p">(</span><span class="s1">'strong text'</span><span class="p">)</span>
+</pre>
+</div>
+
+
+<h3>Installation</h3>
+
+<ul>
+<li>gem</li>
+</ul><div class="highlight">
+<pre><span class="n">gem</span> <span class="n">install</span> <span class="n">html2markdown</span>
+</pre>
+</div>
+
+
+<ul>
+<li>Rails Gemfile</li>
+</ul><div class="highlight">
+<pre><span class="n">gem</span> <span class="s1">'html2markdown'</span>
+</pre>
+</div>
+
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/29decibel">29decibel</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/#!/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+  </body>
+</html>
