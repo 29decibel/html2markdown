@@ -1,4 +1,4 @@
-### Simple html to Markdown ruby gem
+### Simple html to Markdown ruby gem [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/29decibel/html2markdown)
 We love markdown, cause it is friendly to edit.
 So we want everything to be **markdown**
 
