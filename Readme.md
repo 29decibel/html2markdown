@@ -28,3 +28,17 @@ gem install html2markdown
 ```ruby
 gem 'html2markdown'
 ```
+
+### CLI usage
+
+* prints to stdout
+
+```shell
+html2markdown [file]
+```
+
+* redirect to a new markdown file.
+
+```shell
+html2markdown index.html > index.md
+```

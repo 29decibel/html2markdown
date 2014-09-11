@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+require 'html2markdown'
+puts HTMLPage.new(contents: ARGF.read).markdown
