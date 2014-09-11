@@ -35,7 +35,9 @@ gem 'html2markdown'
 html2markdown [file]
 ```
 
-The command line tool with print the markdown to stdout. You can then redirect to a file.
+Will print markdown to stdout. 
+
+You can redirect to a new markdown file.
 
 Ex.
 
