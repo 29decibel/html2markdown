@@ -31,15 +31,13 @@ gem 'html2markdown'
 
 ### CLI usage
 
+* prints to stdout
+
 ```shell
 html2markdown [file]
 ```
 
-Will print markdown to stdout. 
-
-You can redirect to a new markdown file.
-
-Ex.
+* redirect to a new markdown file.
 
 ```shell
 html2markdown index.html > index.md
