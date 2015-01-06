@@ -92,4 +92,7 @@ NEXT！<br>
     p.markdown!.should be_include('strong text')
   end
 
+  it 'separates paragraphs like you do' do
+    HTMLPage.new(contents: '<p>Goodbye</p><p>Hello</p>').markdown.should == "Goodbye\n\nHello"
+  end
 end
