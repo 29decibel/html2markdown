@@ -46,6 +46,8 @@ module HTML2Markdown
         contents.split('\n').each do |part|
           result << ">#{contents}\n"
         end
+      when 'p'
+        result << "\n#{contents}\n"
       when 'strong'
         result << "**#{contents}**\n"
       when 'h1'
