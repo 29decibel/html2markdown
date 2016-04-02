@@ -42,3 +42,6 @@ html2markdown [file]
 ```shell
 html2markdown index.html > index.md
 ```
+
+### Donation
+Buy me a [Kindle book](https://amzn.com/w/27RM84VK3GHRL) :book:
