@@ -9,8 +9,8 @@ require 'vcr'
 # configuration for rspec
 RSpec.configure do |config|
   config.mock_with :rspec
-  config.color_enabled = true
-
+  config.color = true
+  config.expect_with(:rspec) { |c| c.syntax = :should }
   config.before(:each) do
 
   end
