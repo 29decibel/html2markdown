@@ -46,7 +46,7 @@ NEXT！<br>
 <font face="微软雅黑 "><font size="3"><strong>DIY的手绘行程图</strong></font></font><br>
 <span style="position: absolute; display: none" id="attach_1254048" onmouseover="showMenu({'ctrlid':this.id,'pos':'13'})"><img src="images/go2eu/attachimg.gif" border="0"></span>
 <img src="http://att.qyer.com/day_111228/1112282241c0deb3a69dcd9cf5.jpg" file="http://att.qyer.com/day_111228/1112282241c0deb3a69dcd9cf5.jpg" width="700" class="zoom" onclick="zoom(this, this.src)" id="aimg_1254048" onmouseover="showMenu({'ctrlid':this.id,'pos':'12'})" alt="55105222201110032253301023057594630_006.jpg">
-<div class="t_attach" id="aimg_1254048_menu" style="position: absolute; display: none">				
+<div class="t_attach" id="aimg_1254048_menu" style="position: absolute; display: none">
 <a href="attachment.php?aid=MTI1NDA0OHxkYmZjODBmY3wxMzMyOTIzMTI4fGM0OTVjaUtKdjEveHl3OW1XSUFScll0MGtwWXFHRlNJUDV4S2ppbFMwU0p5TGNB&amp;nothumb=yes" title="55105222201110032253301023057594630_006.jpg" target="_blank"><strong>下载</strong></a> (247.14 KB)<br>
 <div class="t_smallfont">2011-12-28 22:41</div>
 </div>
@@ -54,7 +54,7 @@ NEXT！<br>
 <br>
 <span style="position: absolute; display: none" id="attach_1254049" onmouseover="showMenu({'ctrlid':this.id,'pos':'13'})"><img src="images/go2eu/attachimg.gif" border="0"></span>
 <img src="http://att.qyer.com/day_111228/1112282241a7c6f2711722bc9b.jpg" file="http://att.qyer.com/day_111228/1112282241a7c6f2711722bc9b.jpg" width="700" class="zoom" onclick="zoom(this, this.src)" id="aimg_1254049" onmouseover="showMenu({'ctrlid':this.id,'pos':'12'})" alt="55105222201110032253301023057594630_007.jpg">
-<div class="t_attach" id="aimg_1254049_menu" style="position: absolute; z-index: 301; opacity: 1; left: 309px; top: 736px; display: none; ">				
+<div class="t_attach" id="aimg_1254049_menu" style="position: absolute; z-index: 301; opacity: 1; left: 309px; top: 736px; display: none; ">
 <a href="attachment.php?aid=MTI1NDA0OXxhYTE5MTBiMHwxMzMyOTIzMTI4fGM0OTVjaUtKdjEveHl3OW1XSUFScll0MGtwWXFHRlNJUDV4S2ppbFMwU0p5TGNB&amp;nothumb=yes" title="55105222201110032253301023057594630_007.jpg" target="_blank"><strong>下载</strong></a> (241.74 KB)<br>
 <div class="t_smallfont">2011-12-28 22:41</div>
 </div>
@@ -68,9 +68,9 @@ NEXT！<br>
       if node['src'].end_with? 'gif'
         ''
       elsif node['src'].start_with? 'http'
-        "![#{node['alt']}](#{node['src']} =300x)" 
+        "![#{node['alt']}](#{node['src']} =300x)"
       else
-        "![#{node['alt']}](http://bbs.qyer.com/#{node['src']} =300x)" 
+        "![#{node['alt']}](http://bbs.qyer.com/#{node['src']} =300x)"
       end
     end
     markdown = page.to_markdown page.contents
@@ -94,5 +94,18 @@ NEXT！<br>
 
   it 'separates paragraphs like you do' do
     HTMLPage.new(contents: '<p>Goodbye</p><p>Hello</p>').markdown.should == "Goodbye\n\nHello"
+  end
+
+  it 'converts unordered lists like you do' do
+    HTMLPage.new(contents: '<p>ul items:</p><ul><li>li_1</li><li>li_2</li><li>li_3</li></ul>').markdown.should == "ul items:\n* li_1\n* li_2\n* li_3"
+  end
+
+  it 'converts headers like you do' do
+    HTMLPage.new(contents: '<h1>heading 1</h1>').markdown.should == "# heading 1"
+    HTMLPage.new(contents: '<h2>heading 2</h2>').markdown.should == "## heading 2"
+    HTMLPage.new(contents: '<h3>heading 3</h3>').markdown.should == "### heading 3"
+    HTMLPage.new(contents: '<h4>heading 4</h4>').markdown.should == "#### heading 4"
+    HTMLPage.new(contents: '<h5>heading 5</h5>').markdown.should == "##### heading 5"
+    HTMLPage.new(contents: '<h6>heading 6</h6>').markdown.should == "###### heading 6"
   end
 end
